@@ -1,3 +1,9 @@
+//이름 : 박노현
+//학번 : 202010553
+//학과 : 컴퓨터공학과
+//문제 : 10.4 최대 힙 트리 테스트 프로그램
+//실습일 : 20230518
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_HEAP_NODE 200
