@@ -118,7 +118,7 @@ int visited[MAX_VTXS];
 void reset_visited()
 {
     int i;
-    for( i=0; i<vsize ; i++)
+    for( i=0; i<vsize; i++)
         visited[i] = 0;
 }
 
@@ -127,7 +127,7 @@ void DFS(int v)
     GNode *p;
     visited[v] = 1;
     printf("%c", vdata[v]);
-    for(p=adj[v]; p != NULL; p=p->link)
+    for(p=adj[v]; p!=NULL; p=p->link)
         if(visited[p->id] == 0);
             DFS(p->id);
 }
