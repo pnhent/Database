@@ -1,3 +1,9 @@
+//이름 : 박노현
+//학번 : 202010553
+//학과 : 컴퓨터공학과
+//문제 : 12.3 Kruskal 최소비용 신장트리 프로그램
+//실습일 : 20230603
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_VTXS 256
